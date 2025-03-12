@@ -2,6 +2,10 @@ import os
 from huggingface_hub import whoami    
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
 import sys
+
+# Add the current working directory to the Python path
+sys.path.insert(0, os.getcwd())
+
 import gradio as gr
 from PIL import Image
 import torch
