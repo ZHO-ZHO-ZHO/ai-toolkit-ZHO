@@ -17,7 +17,7 @@ from diffusers import Transformer2DModel
 
 sys.path.append(REPOS_ROOT)
 
-from ipadapter.ip_adapter.attention_processor import AttnProcessor2_0
+from ip_adapter.attention_processor import AttnProcessor2_0
 
 
 if TYPE_CHECKING:
