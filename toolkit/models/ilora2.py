@@ -11,7 +11,7 @@ import sys
 from toolkit.paths import REPOS_ROOT
 
 sys.path.append(REPOS_ROOT)
-from ipadapter.ip_adapter.resampler import Resampler
+from ip_adapter.resampler import Resampler
 from collections import OrderedDict
 
 if TYPE_CHECKING:
