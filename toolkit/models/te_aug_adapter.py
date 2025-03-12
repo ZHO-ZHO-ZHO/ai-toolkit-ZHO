@@ -15,7 +15,7 @@ from toolkit.resampler import Resampler
 
 sys.path.append(REPOS_ROOT)
 
-from ipadapter.ip_adapter.attention_processor import AttnProcessor2_0
+from ip_adapter.attention_processor import AttnProcessor2_0
 
 if TYPE_CHECKING:
     from toolkit.stable_diffusion_model import StableDiffusion
